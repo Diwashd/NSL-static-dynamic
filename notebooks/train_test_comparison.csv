@@ -1,0 +1,5 @@
+Metric,Train,Test
+Accuracy,0.9996,0.9973
+Precision,0.9995,0.997
+Recall,0.9996,0.9967
+F1-score,0.9995,0.9968

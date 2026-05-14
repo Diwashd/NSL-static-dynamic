@@ -1,0 +1,21 @@
+venv/
+dataset/
+dataset_word/
+__pycache__/
+/venv
+# Large raw data / generated artifacts
+outputs/
+ablation_models/
+ablation_results/
+models/
+*.h5
+*.npy
+*.pkl
+
+# Logs
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
