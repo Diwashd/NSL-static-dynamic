@@ -114,7 +114,7 @@ prev_pose_vel = None
 
 
 # =========================================================
-# HELPER FUNCTIONS
+# Normalization FUNCTIONS
 # =========================================================
 
 def wrist_normalize(points, wrist_idx=0):
@@ -363,9 +363,9 @@ def extract_features(frame):
         # geometry
         [elbow_angle_left],
         [elbow_angle_right],
-        [wrist_distance]
+        [wrist_distance] # type: ignore
 
-    ])
+    ]) # type: ignore
 
     return features.astype(np.float32)
 
